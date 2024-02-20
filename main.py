@@ -27,3 +27,8 @@ class Asiento:
         self.precio = precio
         self.registro = registro
 
+       def cambiarColor(self, colour):
+        listaa = ["rojo", "verde", "amarillo", "negro","blanco"]
+        if colour in listaa:
+            self.color = colour
+
